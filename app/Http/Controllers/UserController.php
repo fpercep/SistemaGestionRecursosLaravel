@@ -13,15 +13,27 @@ class UserController extends Controller
             ['id' => 3, 'name' => 'Pepe', 'email' => 'pepe@pepe.com']
         ];
 
-        return view('user', ['users' => $users]);
+        return view('user.index', ['users' => $users]);
     }
 
-    function create() {}
+    function create() {
 
-    function store() {}
+    }
 
-    function show() {}
-    function edit() {}
-    function update() {}
-    function destroy() {}
+    function store() {
+
+    }
+
+    function show() {
+
+    }
+    function edit() {
+
+    }
+    function update() {
+
+    }
+    function destroy() {
+
+    }
 }

@@ -10,7 +10,7 @@ class ProductoController extends Controller
         $productos = [
 
         ];
-        return view('producto', $productos);
+        return view('producto.index', $productos);
     }
 
     function create() {}

@@ -10,7 +10,7 @@
     <ul>
         <li><a href="{{route("home.index")}}">Inicio</a></li>
         <li><a href="{{route("usuarios.index")}}">Usuarios</a></li>
-        <li><a href="{{route("productos.index")}}">Productos</a></li>
+        <li><a href="{{route("producto.index")}}">Productos</a></li>
     </ul>
 </body>
 </html>
